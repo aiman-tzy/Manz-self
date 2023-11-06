@@ -164,7 +164,7 @@ module.exports = async (conn, msg, m, setting, store) => {
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: fs.readFileSync('./sticker/menu.jpg'),
-            sourceUrl: 'https://github.com/dragneel1111/Simple-Selfbot'
+            sourceUrl: 'https://lynxaiman.my.id'
           }
         }
       },
@@ -353,7 +353,7 @@ https://github.com/dragneel1111/Simple-Selfbot
           cptn += `• ${prefix}readmore\n`
           cptn += `• ${prefix}hidetag\n`
           cptn += `• ${prefix}ssweb\n\n`
-          cptn += `${setting.group.judul}\n_Create by @Rafly͘~_\n_Since 01-12-2020_`
+          cptn += `${setting.group.judul}\n_Create by manzxx dev's~_\n_Since 01-12-2019_`
           adReply2(cptn, setting.group.judul, setting.botName, fstatus)
         } else if (q.includes('owner')) {
           var cptn = `_Owner Tools_\n`
